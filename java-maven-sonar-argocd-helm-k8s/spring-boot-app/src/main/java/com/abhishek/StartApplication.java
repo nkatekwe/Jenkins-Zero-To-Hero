@@ -18,4 +18,3 @@ public class SampleApplication {
         return "Sample Spring Boot app is running!";
     }
 }
-
