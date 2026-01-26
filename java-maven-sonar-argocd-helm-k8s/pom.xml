@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('Checkout') {
             steps {
@@ -8,7 +7,6 @@ pipeline {
                     url: 'https://github.com/Ravinder219/Jenkins-Zero-To-Hero.git'
             }
         }
-
         stage('Find pom.xml') {
             steps {
                 sh 'pwd'
