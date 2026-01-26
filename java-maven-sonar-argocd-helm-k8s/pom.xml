@@ -21,7 +21,6 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Web starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -30,7 +29,6 @@
 
     <build>
         <plugins>
-            <!-- Force Maven compiler to use Java 17 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -41,13 +39,10 @@
                     <release>17</release>
                 </configuration>
             </plugin>
-
-            <!-- Spring Boot Maven plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
-
 </project>
